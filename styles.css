@@ -1,0 +1,7 @@
+:root{
+    --clr-azul-principal: #031633;
+}
+
+.azul-primario{
+    background-color: var(--clr-azul-principal);
+}
