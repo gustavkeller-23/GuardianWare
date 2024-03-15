@@ -1,7 +1,33 @@
 :root{
     --clr-azul-principal: #031633;
+    --clr-azul-secundario: #032961;
+    --clr-branco: #f5f5f5;
+    --borda-azul: linear-gradient(to top, var(--clr-branco), var(--clr-azul-principal))
+}
+
+body{
+    background-color: var(--clr-branco);
 }
 
 .azul-primario{
     background-color: var(--clr-azul-principal);
+}
+
+.borda-color{
+    border-color: var(--borda-azul);
+}
+
+.vantagem:hover{
+    color: var(--clr-branco);
+    background-color: var(--clr-azul-principal);
+    transition: all 0.5s;
+}
+
+
+.icon{
+    color: var(--clr-azul-principal);
+}
+.icon:hover{
+    color: var(--clr-azul-secundario);
+    transition: all 0.2s ease-in-out;
 }
