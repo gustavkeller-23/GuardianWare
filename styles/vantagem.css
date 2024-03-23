@@ -1,0 +1,12 @@
+.identificador-card-vantagem .card{
+    --bs-border-width: 0
+}
+
+.vantagem-icon{
+    font-size: 3rem;
+}
+.vantagem:hover{
+    color: var(--clr-branco);
+    background-color: var(--clr-azul-principal);
+    transition: all 0.5s;
+}

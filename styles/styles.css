@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --clr-azul-principal: #031633;
+    --clr-azul-secundario: #032961;
+    --clr-azul-terciario: #084095;
+    --clr-branco: #f5f5f5;
+    --borda-planos: linear-gradient(to top, var(--clr-branco), #f5f5f513, var(--clr-azul-principal));
+
+    --fnt-title: "Poppins", sans-serif;
+    --fnt-text: "Lusitana", serif;
+}
+
+
+body{
+    background-color: var(--clr-branco);
+    --bs-body-font-family: var(--fnt-text);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+}
+
+@media screen and (min-width: 1440){
+    main{
+        margin-left: calc((100vw - 1440) / 2);
+        margin-right: calc((100vw - 1440) / 2);
+    }    
+}
+
+
+.titulo-principal{
+    font-family: var(--fnt-title);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--clr-azul-principal);
+}
+.titulo-secundario{
+    font-family: var(--fnt-title);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.titulo-terciario{
+    font-family: var(--fnt-title);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.branco{
+    color: var(--clr-branco);
+}
+.azul-primario{
+    background-color: var(--clr-azul-principal);
+}
+.azul{
+    color: var(--clr-azul-principal);
+}
+
+
+.botao-main{
+    background-color: var(--clr-azul-secundario);
+    color: var(--clr-branco);
+    border-radius: 2rem;
+    padding: 1rem 1.7rem 1rem 1.7rem;
+    border: none
+}
+.botao-main:hover{
+    background-color: var(--clr-azul-terciario);
+}
+.botao-main:active{
+    background-color: var(--clr-azul-principal);
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+}

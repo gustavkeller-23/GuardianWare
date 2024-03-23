@@ -1,0 +1,15 @@
+.planos{
+    height: 720px;
+
+}
+
+.plano{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.borda-color{
+    border: none;
+    background: var(--borda-planos);
+}

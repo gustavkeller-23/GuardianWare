@@ -1,0 +1,41 @@
+.tamanho-texto{
+    width: 80%;
+}
+
+.tamanho-imagem{
+    width: 80%;
+}
+
+.imagem{
+    width: 100%;
+}
+
+.tamanho-botao{
+    width: 50%;
+}
+
+@media screen and (min-width: 769px){
+    .tamanho-texto{
+        width: 40%;
+    }
+
+    .tamanho-imagem{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .tamanho-texto{
+        width: 50%;
+    }
+
+    .tamanho-imagem{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .imagem{
+        width: 70%;
+    }
+}

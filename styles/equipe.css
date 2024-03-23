@@ -1,0 +1,7 @@
+.icon{
+    color: var(--clr-azul-principal);
+}
+.icon:hover{
+    color: var(--clr-azul-secundario);
+    transition: all 0.2s ease-in-out;
+}

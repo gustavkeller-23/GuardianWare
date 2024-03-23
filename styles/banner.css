@@ -5,6 +5,16 @@
     background-size: cover;
 }
 
+.texto-posicao{
+    position: absolute;
+    top: 35%;
+}
+.fundo-texto{
+    background-color: #f5f5f554;
+    margin: 0;
+    padding: 1rem 0;
+}
+
 @media screen and (min-width: 480px){
     .background{
         height: 30vh;
