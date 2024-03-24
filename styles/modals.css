@@ -1,0 +1,56 @@
+@import url("./styles.css");
+
+.modal-size{
+    width: 90vw;
+    height: 90vh;
+}
+
+@media screen and (max-width: 600px){
+    .modal-size{
+        width: 80vw;
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:600px){
+    .modal-size{
+        width: 70vw;
+        height: 90vh;
+    }
+}
+
+.buttons{
+    width: 50%;
+    padding: .6rem 0;
+    border-radius: 8rem;
+    border: none;
+}
+
+.compra{
+    background-color: var(--clr-azul-principal);
+    color: #f5f5f5;
+}
+.compra:hover{
+    background-color: var(--clr-azul-terciario);
+    color: #f5f5f5;
+}
+.compra:active{
+    background-color: var(--clr-azul-secundario);
+    color: #f5f5f5;
+}
+
+.cancela{
+    background-color: #f5f5f5;
+    color: black;
+}
+.cancela:hover{
+    background-color: #c5c5c5;
+}
+.cancela:active{
+    background-color: #5c5c5c;
+}
+
+
+input{
+    padding: .5rem;
+}

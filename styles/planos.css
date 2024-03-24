@@ -1,15 +1,30 @@
-.planos{
-    height: 720px;
+@import url("./styles.css");
 
+.planos{
+    gap: 4rem;
 }
 
 .plano{
-    width: 95%;
-    justify-content: center;
+    width: 30%;
     align-items: center;
 }
 
 .borda-color{
     border: none;
     background: var(--borda-planos);
+}
+
+
+@media screen and (max-width: 600px){
+    .plano{
+        width: 80%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:600px){
+    .plano{
+        width: 60%;
+        align-items: center;
+    }
 }

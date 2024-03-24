@@ -1,8 +1,11 @@
+@import url("./styles.css");
+
 .background{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 30vh;
 }
 
 .texto-posicao{

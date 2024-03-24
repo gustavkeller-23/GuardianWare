@@ -16,34 +16,91 @@
 body{
     background-color: var(--clr-branco);
     --bs-body-font-family: var(--fnt-text);
-    --bs-body-font-size: 1rem;
+    --bs-body-font-size: 0.8rem;
     --bs-body-font-weight: 400;
 }
 
-@media screen and (min-width: 1440){
-    main{
-        margin-left: calc((100vw - 1440) / 2);
-        margin-right: calc((100vw - 1440) / 2);
-    }    
-}
-
-
 .titulo-principal{
     font-family: var(--fnt-title);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--clr-azul-principal);
 }
 .titulo-secundario{
     font-family: var(--fnt-title);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 .titulo-terciario{
     font-family: var(--fnt-title);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
+
+@media screen and (min-width: 450){
+    .titulo-principal{
+        font-family: var(--fnt-title);
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: var(--clr-azul-principal);
+    }
+    .titulo-secundario{
+        font-family: var(--fnt-title);
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .titulo-terciario{
+        font-family: var(--fnt-title);
+        font-size: 1.2rem;
+        font-weight: 500;
+    }  
+    body{
+        --bs-body-font-size: 0.9rem;
+    }
+}
+@media screen and (min-width: 900){
+    .titulo-principal{
+        font-family: var(--fnt-title);
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: var(--clr-azul-principal);
+    }
+    .titulo-secundario{
+        font-family: var(--fnt-title);
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .titulo-terciario{
+        font-family: var(--fnt-title);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }   
+    body{
+        --bs-body-font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1000){
+    .titulo-principal{
+        font-family: var(--fnt-title);
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--clr-azul-principal);
+    }
+    .titulo-secundario{
+        font-family: var(--fnt-title);
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .titulo-terciario{
+        font-family: var(--fnt-title);
+        font-size: 1.5rem;
+        font-weight: 500;
+    }    
+    body{
+        --bs-body-font-size: 1rem;
+    }
+}
+
 
 .branco{
     color: var(--clr-branco);
