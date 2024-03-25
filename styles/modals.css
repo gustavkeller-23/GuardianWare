@@ -5,17 +5,30 @@
     height: 90vh;
 }
 
-@media screen and (max-width: 600px){
-    .modal-size{
-        width: 80vw;
-        height: 90vh;
+.modal-dialog{
+    --bs-modal-width:90vw
+}
+
+@media screen and (min-width: 568px){
+    .modal-dialog{
+        --bs-modal-width:500px
     }
 }
 
-@media screen and (max-width: 992px) and (min-width:600px){
-    .modal-size{
-        width: 70vw;
-        height: 90vh;
+@media screen and (min-width: 720px){
+    .modal-dialog{
+        --bs-modal-width:700px
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .modal-dialog{
+        --bs-modal-width:800px
+    }
+}
+@media screen and (min-width: 1400px){
+    .modal-dialog{
+        --bs-modal-width:1000px
     }
 }
 
@@ -51,6 +64,12 @@
 }
 
 
-input{
-    padding: .5rem;
+.modal-part{
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px){
+    .modal-part{
+        width: 100%;
+    }   
 }

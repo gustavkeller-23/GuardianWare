@@ -1,0 +1,98 @@
+.img-logo__sobre-nos{
+    width: 150px;
+}
+
+.background-sobrenos{
+    height: 100vh;
+    background-image: url("../assets/Fundo\ Quem\ Somos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 470px){
+    .background-sobrenos{
+        height: 90vh;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 590px) and (min-width: 576px){
+    .background-sobrenos{
+        height: 65vh;
+        background-size: cover;
+    }
+
+    .img-logo__sobre-nos{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 591px){
+    .background-sobrenos{
+        height: 70vh;
+        background-size: cover;
+    }
+
+    .img-logo__sobre-nos{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 721px){
+    .background-sobrenos{
+        height: 60vh;
+        background-size: cover;
+    }
+
+    .img-logo__sobre-nos{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .background-sobrenos{
+        height: 70vh;
+        background-size: cover;
+    }
+
+    .img-logo__sobre-nos{
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .background-sobrenos{
+        height: 80vh;
+        background-size: cover;
+    }
+
+    .img-logo__sobre-nos{
+        width: 250px;
+    }
+}
+
+
+
+.tamanho-sobre-texto{
+    width: 80%;
+}
+
+.tamanho-sobre-img{
+    width: 0;
+}
+
+@media screen and (min-width: 576px){
+    .tamanho-sobre-texto{
+        width: 50%;
+    }
+    
+    .tamanho-sobre-img{
+        width: 50%;
+    }
+}
+
+
+.orange{
+    color: orange;
+}

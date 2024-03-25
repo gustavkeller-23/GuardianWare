@@ -34,9 +34,7 @@
     .tamanho-imagem{
         width: 50%;
     }
-}
 
-@media screen and (min-width: 1000px){
     .imagem{
         width: 70%;
     }
